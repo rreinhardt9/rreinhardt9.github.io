@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #286090;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -46,8 +46,9 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap",
         "base",
         "layout",
         "syntax-highlighting",
-        "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"
+        "my"
 ;

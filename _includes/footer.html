@@ -1,6 +1,8 @@
 <footer class="site-footer">
   <script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/bower_components/jquery.easing/js/jquery.easing.min.js"></script>
   <script src="{{ site.baseurl }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/js/main.js"></script>
 
   <div class="wrapper">
 
@@ -9,8 +11,10 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>Click to reveal email</li>
+          <li>
+            <a href="http://www.google.com/recaptcha/mailhide/d?k=01z8d4a5fDA_7cgOouAIPsWg==&amp;c=eqqEW5L4kBhYlOM98lnSRNvpgaOkXaWi1_i-VKvBfYU=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501z8d4a5fDA_7cgOouAIPsWg\75\75\46c\75eqqEW5L4kBhYlOM98lnSRNvpgaOkXaWi1_i-VKvBfYU\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">r...</a>@reinhardt.io
+          </li>
         </ul>
       </div>
 
@@ -44,6 +48,14 @@
             </a>
           </li>
           {% endif %}
+          <li>
+            <a href="https://www.linkedin.com/pub/ross-reinhardt/87/782/89" style="text-decoration:none;">
+              <span class="username">
+                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Ross Reinhardt's LinkedIn profile" style="vertical-align:middle;" border="0">
+                &nbsp;LinkedIn
+              </span>
+            </a>
+          </li>
         </ul>
       </div>
 
@@ -53,5 +65,4 @@
     </div>
 
   </div>
-
 </footer>

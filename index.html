@@ -1,5 +1,87 @@
 ---
-layout: default
+layout: null
 ---
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>Hello World</h1>
+  {% include head.html %}
+
+  <body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Reinhardt<small>.io</small></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about" class="page-scroll">About</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/blog">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header id="welcome">
+      <div class="header-content">
+        <h1>Ross Reinhardt</h1>
+        <hr class="primary">
+        <h3><em>Glad you stopped by!</em></h3>
+        <a href="#about" class="btn btn-primary btn-xl page-scroll">Who is Ross?</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container wrapper">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About</h2>
+                <hr class="primary">
+                <div class="text-left">
+                  <p>
+                    Diving head first into complex technical problems has always
+                    been something I enjoy.
+                    <br>Building solid, good looking web apps is where I go
+                    diving these days.
+                  </p>
+                  <p>
+                    In addition to web development, I have a new found passion
+                    gleaning insights from large collections of data using the R
+                    language.
+                  </p>
+                  <p>
+                    When I get tired of looking at the computer screen,
+                    you'll find me pretending with the kids, gardening, and
+                    growing grapes/ making wine; all of which are surprisingly
+                    complex in their own ways :-)
+                  </p>
+                  <p>
+                    Please feel free to check out my blog or my profiles linked
+                    below.
+                  </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

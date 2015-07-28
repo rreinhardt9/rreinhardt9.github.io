@@ -1,0 +1,77 @@
+@mixin transition-all {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+hr.primary {
+  border-color: $brand-color;
+  border-width: 3px;
+  max-width: 50px;
+  margin: 30px auto;
+}
+
+section {
+  padding: 100px 0;
+}
+
+a.btn-primary {
+  background-color: $brand-color;
+  border-color: $brand-color;
+  border-radius: 16px;
+  color: white;
+}
+
+#mainNav {
+  @include transition-all;
+    background-color: transparent;
+    a {
+      color: white;
+      font-size: 23px;
+      font-weight: 700;
+      &:hover {
+          text-decoration: underline;
+      }
+    }
+    &.affix {
+      background-color: $background-color;
+      a {
+        color: $text-color;
+      }
+  }
+}
+
+#welcome {
+  min-height: 100%;
+  background: url('../img/header.jpg');
+  @include background-cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  .header-content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+  }
+}
+
+#about {
+  height: 600px;
+}
