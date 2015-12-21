@@ -9,3 +9,6 @@ github_username:  rreinhardt9
 
 # Build settings
 markdown: redcarpet
+
+exclude:
+  - vendor/
