@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Approach to rails new"
-date:   2015-12-19 12:00:00
+date:   2015-12-22 20:00:00
 category: ["Ruby", "Rails"]
 ---
 
