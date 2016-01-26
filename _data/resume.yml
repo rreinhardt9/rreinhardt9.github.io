@@ -1,0 +1,7 @@
+jobs:
+  - name: Freelance Software Consultant
+    start: 2014-05-01
+    end: 2015-01-01
+    description: >
+      Helping clients achieve their goals using Ruby, Rails, and Angular JS
+      (with a Rails backend).

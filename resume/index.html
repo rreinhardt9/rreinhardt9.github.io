@@ -1,0 +1,41 @@
+---
+layout: default
+title: Resume
+---
+
+<div class="row text-center page-header">
+  <h1>Ross Reinhardt</h1>
+  <hr class="primary">
+  <em>Leadership, technological understanding, and effective communication</em>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <p>
+      Solving complex technical challenges has always been something I enjoy and I have applied my skills as a Flight Instructor, Commercial Pilot (Embraer RJs), and Winegrower. Currently, I am a Software Engineer working hard to transform great ideas into quality web applications.
+    </p>
+  </div>
+</div>
+
+<hr class="primary">
+<h3 class='text-center'>Experiences</h3>
+{% for job in site.data.resume.jobs %}
+
+  <div class="row">
+    <div class="col-sm-3">
+      {{job.start | date: '%B, %Y'}}
+      {% if job.end %}
+        - {{job.end | date: '%B, %Y'}}
+      {% else %}
+        - Present
+      {% endif %}
+    </div>
+    <div class="col-sm-9">
+      <b>{{job.name}}</b>
+      <p>
+        {{job.description}}
+      </p>
+    </div>
+  </div>
+
+{% endfor %}
