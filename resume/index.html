@@ -1,41 +1,75 @@
 ---
 layout: default
 title: Resume
+bootstrap: true
 ---
 
-<div class="row text-center page-header">
-  <h1>Ross Reinhardt</h1>
-  <hr class="primary">
-  <em>Leadership, technological understanding, and effective communication</em>
-</div>
+<button type="button" name="print" class="btn btn-default" onclick="window.print()">Print Me</button>
 
-<div class="row">
-  <div class="col-sm-12">
-    <p>
-      Solving complex technical challenges has always been something I enjoy and I have applied my skills as a Flight Instructor, Commercial Pilot (Embraer RJs), and Winegrower. Currently, I am a Software Engineer working hard to transform great ideas into quality web applications.
-    </p>
+<div id="resume">
+  <div class="row text-center page-header">
+    <h1>Ross Reinhardt</h1>
+    <hr class="primary">
+    <em>Leadership, technological understanding, and effective communication</em>
   </div>
-</div>
-
-<hr class="primary">
-<h3 class='text-center'>Experiences</h3>
-{% for job in site.data.resume.jobs %}
 
   <div class="row">
+    <div class="col-sm-12">
+      <p>
+        {{site.data.resume.summary}}
+      </p>
+    </div>
+  </div>
+
+  <h3 class='text-center'>Experience</h3>
+  <hr class="primary">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <p>
+        {{site.data.resume.experience | markdownify}}
+      </p>
+    </div>
+  </div>
+
+  {% for job in site.data.resume.jobs %}
+  <div class="row job">
     <div class="col-sm-3">
-      {{job.start | date: '%B, %Y'}}
-      {% if job.end %}
+      <p>
+        {{job.start | date: '%B, %Y'}}
+        {% if job.end %}
         - {{job.end | date: '%B, %Y'}}
-      {% else %}
+        {% else %}
         - Present
-      {% endif %}
+        {% endif %}
+      </p>
     </div>
     <div class="col-sm-9">
-      <b>{{job.name}}</b>
+      <b>{{job.title}}</b> - {{job.company}}, <em>{{job.location}}</em>
       <p>
         {{job.description}}
       </p>
     </div>
   </div>
+  {% endfor %}
 
-{% endfor %}
+  <h3 class="text-center">Education</h3>
+  <hr class="primary">
+
+  {% for education in site.data.resume.education %}
+  <div class="row">
+    <div class="col-sm-3">
+      {{education.date | date: '%B, %Y'}}
+    </div>
+    <div class="col-sm-9">
+      <b>{{education.certification}}</b>
+      <p>
+        <em>{{education.institution}}</em>
+      </p>
+      <p>
+        {{education.description}}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>

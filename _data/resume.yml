@@ -1,7 +1,61 @@
+summary: >
+  Solving complex technical challenges has always been something I enjoyed.
+  Currently, I am a Software Engineer working hard to transform
+  great ideas into quality web applications. From front end to the gritty
+  back end, I've been involved at all levels. I've developed
+  new projects from a clean slate that are now in production and have also
+  worked with large mature projects.
+
 jobs:
-  - name: Freelance Software Consultant
+  - title: Software Engineer
+    company: Perceivant
+    location: Indianapolis, Indiana
+    start: 2015-01-01
+    description: >
+      Enabling clients to make decisions driven by insight with with our analytics
+      platform and applying analytics to higher ed and healthcare through our
+      Bearface division.
+  - title: Software Engineering Consultant
+    company: Freelance
+    location: Indianapolis, Indiana
     start: 2014-05-01
     end: 2015-01-01
     description: >
-      Helping clients achieve their goals using Ruby, Rails, and Angular JS
-      (with a Rails backend).
+      Helped clients achieve their goals mostly using Ruby, Rails, and a little
+      Angular JS (with a Rails backend).
+  - title: Assistant Vineyard Manager
+    company: Oliver Winery
+    location: Bloomington, Indiana
+    start: 2012-02-01
+    end: 2014-07-01
+    description:
+  - title: Pilot
+    company: Chautauqua Airlines
+    location: Indianapolis, Indiana
+    start: 2007-06-01
+    end: 2012-02-01
+    description:
+  - title: Flight Instructor
+    company: Lafayette Aviation
+    location: West Lafayette, Indiana
+    start: 2004-12-01
+    end: 2007-05-01
+    description:
+
+
+experience: >
+  **Ruby**, **Rails**, and related technology are my primary strength.
+  Additionally, I've gained experience modeling data using **d3.js**. Some
+  other things that I've had some exposure to include: **Elasticsearch**, **AWS**,
+  **AngularJS**, **ReactJS**, data analytics in the **R language**, mobile
+  app development using **Cordova**.
+
+education:
+  - date: 2007-05-01
+    certification: B.S. Aviation Technology
+    institution: Purdue University, West Lafayette, IN
+    description: >
+      Minors in: Aircraft Electronics and Avionics, Aircraft Turbine Engine
+      Technology, Reciprocating Engine Technology, and Metallic Materials
+      Technology.
+      GPA 3.90 (3.96 in major)
