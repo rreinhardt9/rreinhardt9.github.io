@@ -22,7 +22,7 @@ jobs:
       - Full stack developer on a Ruby on Rails based data analytics application
       - Developed new charts based on d3.js and nvd3 library
       - Designed/ built an application to serve mini LTI lessons for consumption
-        in LMSs
+        in Learning Management Systems
       - Working with ReactJS to build a responsive site for student reporting
   - title: Software Engineering Consultant
     company: Freelance
@@ -30,7 +30,7 @@ jobs:
     start: 2014-05-01
     end: 2015-01-01
     description: >
-      Helped clients achieve their goals mostly using Ruby, Rails, and a little
+      - Helped clients achieve their goals mostly using Ruby, Rails, and a little
       Angular JS (with a Rails backend).
   - title: Assistant Vineyard Manager
     company: Oliver Winery
@@ -56,7 +56,7 @@ education:
     certification: B.S. Aviation Technology
     institution: Purdue University, West Lafayette, IN
     description: >
+      GPA 3.90 (3.96 in major)
       Minors in: Aircraft Electronics and Avionics, Aircraft Turbine Engine
       Technology, Reciprocating Engine Technology, and Metallic Materials
       Technology.
-      GPA 3.90 (3.96 in major)

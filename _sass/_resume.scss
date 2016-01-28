@@ -9,7 +9,11 @@
     position: absolute;
     left: 0;
     top: 0;
-    font-size: 11pt;
+    font-size: 10pt;
+
+    ul.resume-contacts {
+      display: block !important;
+    }
 
     .page-header {
       margin: 0px;
@@ -27,6 +31,17 @@
 
     hr.primary {
       display: none;
+    }
+  }
+}
+
+#resume {
+  ul.resume-contacts {
+    display: none;
+    list-style: none;
+    li {
+      display: inline;
+      padding: 0px 10px;
     }
   }
 }

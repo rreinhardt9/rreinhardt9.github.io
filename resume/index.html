@@ -7,10 +7,17 @@ bootstrap: true
 <button type="button" name="print" class="btn btn-default" onclick="window.print()">Print Me</button>
 
 <div id="resume">
-  <div class="row text-center page-header">
+  <div class="row text-center">
     <h1>Ross Reinhardt</h1>
     <hr class="primary">
     <em>Leadership, technological understanding, and effective communication</em>
+    <hr>
+    <ul class="resume-contacts">
+      <li>reinhardt.io</li> |
+      <li>rreinhardt9@gmail.com</li> |
+      <li>github.com/rreinhardt9</li> |
+      <li>linkedin.com/in/rossreinhardt</li>
+    </ul>
   </div>
 
   <div class="row">
@@ -41,7 +48,7 @@ bootstrap: true
         {% if job.end %}
         - {{job.end | date: '%b, %Y'}}
         {% else %}
-        - Present
+        - Current
         {% endif %}
       </p>
     </div>
