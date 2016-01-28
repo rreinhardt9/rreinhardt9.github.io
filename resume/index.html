@@ -34,20 +34,23 @@ bootstrap: true
 
   {% for job in site.data.resume.jobs %}
   <div class="row job">
-    <div class="col-sm-3">
+    <hr>
+    <div class="col-sm-2">
       <p>
-        {{job.start | date: '%B, %Y'}}
+        {{job.start | date: '%b, %Y'}}
         {% if job.end %}
-        - {{job.end | date: '%B, %Y'}}
+        - {{job.end | date: '%b, %Y'}}
         {% else %}
         - Present
         {% endif %}
       </p>
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-10">
       <b>{{job.title}}</b> - {{job.company}}, <em>{{job.location}}</em>
       <p>
-        {{job.description}}
+        {% if job.description %}
+          {{job.description | markdownify}}
+        {% endif %}
       </p>
     </div>
   </div>
@@ -58,10 +61,10 @@ bootstrap: true
 
   {% for education in site.data.resume.education %}
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
       {{education.date | date: '%B, %Y'}}
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-10">
       <b>{{education.certification}}</b>
       <p>
         <em>{{education.institution}}</em>

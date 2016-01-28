@@ -1,20 +1,29 @@
 summary: >
   Solving complex technical challenges has always been something I enjoyed.
   Currently, I am a Software Engineer working hard to transform
-  great ideas into quality web applications. From front end to the gritty
-  back end, I've been involved at all levels. I've developed
+  great ideas into quality web applications. From front end to
+  back end, I've always ready to jump in and get things done. I've developed
   new projects from a clean slate that are now in production and have also
   worked with large mature projects.
+
+experience: >
+  **Ruby**, **Rails**, and related technology are my primary strength.
+  Additionally, I've gained experience visualizing data using **d3.js**. Some
+  other things that I've had some exposure to include: **Elasticsearch**, **AWS**,
+  **AngularJS**, **ReactJS**, data analytics in the **R language**, mobile
+  app development using **Cordova**.
 
 jobs:
   - title: Software Engineer
     company: Perceivant
     location: Indianapolis, Indiana
     start: 2015-01-01
-    description: >
-      Enabling clients to make decisions driven by insight with with our analytics
-      platform and applying analytics to higher ed and healthcare through our
-      Bearface division.
+    description: |
+      - Full stack developer on a Ruby on Rails based data analytics application
+      - Developed new charts based on d3.js and nvd3 library
+      - Designed/ built an application to serve mini LTI lessons for consumption
+        in LMSs
+      - Working with ReactJS to build a responsive site for student reporting
   - title: Software Engineering Consultant
     company: Freelance
     location: Indianapolis, Indiana
@@ -41,14 +50,6 @@ jobs:
     start: 2004-12-01
     end: 2007-05-01
     description:
-
-
-experience: >
-  **Ruby**, **Rails**, and related technology are my primary strength.
-  Additionally, I've gained experience modeling data using **d3.js**. Some
-  other things that I've had some exposure to include: **Elasticsearch**, **AWS**,
-  **AngularJS**, **ReactJS**, data analytics in the **R language**, mobile
-  app development using **Cordova**.
 
 education:
   - date: 2007-05-01
