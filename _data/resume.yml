@@ -20,7 +20,7 @@ jobs:
     start: 2015-01-01
     description: |
       - Full stack developer on a Ruby on Rails based data analytics application
-      - Developed new charts based on d3.js and nvd3 library
+      - Implemented new charts for analytics application using d3.js and nvd3 library
       - Designed/ built an application to serve mini LTI lessons for consumption
         in Learning Management Systems
       - Working with ReactJS to build a responsive site for student reporting
