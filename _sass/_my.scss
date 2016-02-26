@@ -74,4 +74,10 @@ a.btn-primary {
 
 #about {
   // height: 600px;
+  a {
+    font-style: italic;
+    &:visited {
+        color: $brand-color;
+    }
+  }
 }
