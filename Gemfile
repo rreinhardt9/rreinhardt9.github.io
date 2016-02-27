@@ -1,6 +1,6 @@
 # A sample Gemfile
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
-gem "jekyll-coffeescript"
-gem "redcarpet"
+gem 'jekyll'
+gem 'jekyll-coffeescript'
+gem 'kramdown'

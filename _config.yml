@@ -8,9 +8,8 @@ twitter_username: rtreinhardt
 github_username:  rreinhardt9
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+kramdown:
+  input: GFM
 
 exclude:
   - vendor/
