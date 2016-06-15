@@ -4,3 +4,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'jekyll-coffeescript'
 gem 'kramdown'
+
+group :jekyll_plugins do
+  gem 'jekyll-compose'
+end
