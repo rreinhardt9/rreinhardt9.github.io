@@ -175,11 +175,11 @@ require 'test_helper'
 class RankTest < ActiveSupport::TestCase
   describe '.from_index' do
     it 'initializes a Rank from a zero base index 0' do
-      Rank.from_index(0).value.must_equal '1'
+      Rank.from_index(0).value.must_equal 1
     end
 
     it 'initializes a Rank from a zero base index 5' do
-      Rank.from_index(5).value.must_equal '6'
+      Rank.from_index(5).value.must_equal 6
     end
 
     it 'initializes a Rank from a nil index' do
