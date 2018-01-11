@@ -2,6 +2,7 @@
 layout: post
 title: All My Work Will Be Destroyed; a story of inspiration
 category: ['developement', 'work', 'life', 'meaning']
+permalink: '/developement/work/life/meaning/2018/01/11/all-my-work-will-be-destroyed-a-story-of-inspiration'
 ---
 
 You could hear no breeze in the tops of the trees bordering the edge of this 5 acre plot. The only motion in the atmosphere around seemed to be the waves of heat rolling off of any exposed surface, distorting the visible edge of everything so that we seemed almost in a hazy dream land. My hands moved automatically performing one of several yearly adjustments on the grapevine in front of me; adjustments that were crucial to the quality of the harvest but right now seemed trivial compared to the travails of performing them. On an acre of vines planted this way there are exactly 545 vines; that meant that on this 5 acres my coworkers and I had to repeat this operation 2725 time in the blazing sun. After these 5 acres where done there where 50 more, or somewhere around 27250 more vine, to go.
