@@ -15,4 +15,5 @@ exclude:
   - vendor/
 
 gems:
- - jekyll-coffeescript
+  - jekyll-coffeescript
+  - jekyll-redirect-from
