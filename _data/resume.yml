@@ -7,17 +7,24 @@ summary: >
   worked with large mature projects.
 
 experience: >
-  **Ruby**, **Rails**, and related technology are my primary strength.
+  **Ruby**, **Rails**, and **React** are my primary strength.
   Additionally, I've gained experience visualizing data using **d3.js**. Some
   other things that I've had some exposure to include: **Elasticsearch**, **AWS**,
-  **AngularJS**, **ReactJS**, **Elixir/ Phoenix**, data analytics in the **R language**,
+  **AngularJS**, **Elixir/ Phoenix**, data analytics in the **R language**,
   mobile app development using **Cordova**.
 
 jobs:
+  - title: Senior Software Engineer
+    company: Lessonly
+    location: Indianapolis, Indiana
+    start: 2016-09-01
+    description: |
+      - Full stack developer on a Ruby on Rails with React
   - title: Software Engineer
     company: Perceivant
     location: Indianapolis, Indiana
     start: 2015-01-01
+    end: 2016-08-01
     description: |
       - Full stack developer on a Ruby on Rails based data analytics application
       - Implemented new charts for analytics application using d3.js and nvd3 library
