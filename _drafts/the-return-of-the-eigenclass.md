@@ -128,7 +128,7 @@ Lila (participant) is running a long way
 
 We've redefined the class method to have "(participant)" after each of the names. What we did here was open up the "singleton" object `Runner` and change the `named` method. A singleton is a "pattern that restricts the instantiation of a class to one "single" instance" ([wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)); so there is and will only ever be one instance of `Class` representing `Runner`. When we first load our ruby program a single instance of `Class` is created for `Runner` and is accessed via the `Runner` constant. These single instances are also called "metaclass" or "eigenclass" (eigen - "own" or "individual") which are also pretty cool sounding. I might actually watch something called "The Return of the Eigenclass" (would the return just be self? lol).
 
-Here, saying `def Runner.named` looks pretty weird. But when used inside a class it looks very familiar to many Rubyists. The way we initially defined `::named` is doing this very thing, but using `self` (and `self` just represents the singleton `Runner`)
+Here, saying `def Runner.named` looks pretty weird. But when used inside a class it looks very familiar to many Rubyists. The way we initially defined `::named` is doing this very thing using `self` (and `self` just represents the singleton `Runner`)
 ```ruby
 class Runner
   def self.named(name)
@@ -169,6 +169,8 @@ class Runner
   end
 end
 ```
+
+So now it's clear; what we are doing here is just opening up a singleton representing the `Runner` object so that we can add methods to it using that special Ruby syntax for doing so and just like we did with our more literal `def Runner.named` example. Since we are actually inside the `Runner` object, we can use `self` to access the singleton. Although the syntax is a little more intimidating at first, it's not as scary once you understand what it's representing.
 
 ## The Journey's End
 
