@@ -3,6 +3,7 @@ layout: post
 title: The Return of the Eigenclass
 category:
 - ruby
+date: 2020-06-22 11:33 -0400
 ---
 So many times once I've learned how to do something, I'll find myself doing it but maybe not fully understanding what I'm doing. Ruby class method definitions are one of these things for me; I do it all the time but it wasn't until recently that a light bulb went of and I reached a deeper understanding of what I was REALLY doing. Here is that journey, which started with looking for a way to stub methods in ruby tests.
 
@@ -174,7 +175,7 @@ So now it's clear; what we are doing here is just opening up a singleton represe
 
 ## The Journey's End
 
-This is what clicked for me! Just like redefining a method on an instance of `Runner` (like we did to make Martin take a shortcut), we are "opening up" the singleton representing `Runner` to define additional methods (class methods; or methods on the `Runner` singleton class).
+This is what clicked for me! Just like redefining a method on an instance of `Runner` (like we did to make Martin take a shortcut), we are "opening up" the singleton representing `Runner` to define additional methods (class methods; or methods on the `Runner` singleton).
 
 After discovering this and feeling more familiar, I've actually started to prefer it. For one, you don't have to type `self.` as a prefix for each of the class method names. It also keeps the class methods nicely grouped together. Where it really shines for me is when I want to define private class methods.
 
