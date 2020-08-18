@@ -4,7 +4,7 @@ email: rreinhardt9@gmail.com
 description: Ross Reinhardt's site.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://reinhardt.io" # the base hostname & protocol for your site
-twitter_username: rtreinhardt
+# twitter_username: rtreinhardt
 github_username:  rreinhardt9
 
 # Build settings
