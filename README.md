@@ -69,3 +69,14 @@ The built site will be in `_site/`
 - `jekyll-compose` - Commands for creating posts/drafts
 - `jekyll-redirect-from` - URL redirection support
 - `jekyll-sitemap` - Automatic sitemap generation
+
+## Deployment
+
+This site deploys automatically to GitHub Pages using GitHub Actions whenever you push to the `master` branch.
+
+The workflow file is located at `.github/workflows/jekyll.yml` and uses:
+- Jekyll 4.4.1 (no version constraints from github-pages gem)
+- Official GitHub Actions for Jekyll deployment
+- Automatic builds on every push to master
+
+No manual deployment steps required - just push to master!
